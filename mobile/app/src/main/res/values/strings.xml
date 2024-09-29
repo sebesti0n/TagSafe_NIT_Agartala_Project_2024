@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Geo-Tagging</string>
+    <string name="title_activity_auth">AuthActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="create_username">Create Username</string>
+
+    <string-array name="states">
+        <item>Andhra Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Chhattisgarh</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Odisha</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Telangana</item>
+        <item>Tripura</item>
+        <item>Uttarakhand</item>
+        <item>Uttar Pradesh</item>
+        <item>West Bengal</item>
+        <item>Andaman and Nicobar Islands</item>
+        <item>Dadra and Nagar Haveli</item>
+        <item>Daman and Diu</item>
+        <item>Jammu and Kashmir</item>
+        <item>Lakshadweep</item>
+        <item>Puducherry</item>
+        <item>Pondicherry</item>
+    </string-array>
+
+    <string-array name="direction">
+        <item>East</item>
+        <item>West</item>
+        <item>North</item>
+        <item>South</item>
+        <item>South-East</item>
+        <item>South-West</item>
+        <item>North-East</item>
+        <item>North-West</item>
+    </string-array>
+
+    <string-array name="camera_resolution">
+        <item>QCIF</item>
+        <item>CIF</item>
+        <item>2CIF</item>
+        <item>4CIF</item>
+        <item>D1</item>
+        <item>960</item>
+        <item>720P HD</item>
+        <item>720P AHD</item>
+        <item>960P HD</item>
+        <item>1080P AHD</item>
+        <item>1.3 MP</item>
+        <item>2 MP</item>
+        <item>1080P HD</item>
+        <item>3MP</item>
+        <item>4MP</item>
+        <item>5MP</item>
+        <item>6MP</item>
+        <item>8MP/4K</item>
+        <item>12MP/4K (IP)</item>
+    </string-array>
+</resources>
