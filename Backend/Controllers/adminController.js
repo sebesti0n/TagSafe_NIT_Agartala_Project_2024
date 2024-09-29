@@ -11,7 +11,8 @@ exports.addAdmin = (async (req,res)=>{
             {
                 Email:email,
                 Password:password,
-                isAdmin:true
+                Name:"admin",
+                ConfirmPassword:password
             }
         ).returning('*');
 
