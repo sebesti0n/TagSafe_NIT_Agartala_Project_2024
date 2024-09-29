@@ -10,6 +10,10 @@ const PORT = 3000;
 app.use(bodyParser.json());
 app.use(cors());
 app.use(bodyParser.urlencoded({extended:true}));
+app.use((req, res, next) => {
+    console.log(`${req.url}`);
+    next();
+  });
 app.use('/',authRoutes);
 app.use('/camera',camRoutes);
 app.use('/admin',adminRoutes);
